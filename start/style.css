@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+.db-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    max-width: 400px;
+    margin-top: 300px;
+    margin: 0 auto;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin: 10px 0;
+  }
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=text], 
+  input[type=email], 
+  input[type=password] {
+    outline: 2px solid black;
+    font-weight: bold;
+  }
+
+  label[for=first-name], 
+  label[for=last-name],
+  label[for=id],
+  label[for=city] {
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  #delay {
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+  
+  #delay:hover {
+    font-size: 36px;
+  }
+  .form:hover {
+    background-color: #ffcccc;
+    width: 200px;
+    height: 200px;
+    rotate: 180deg;
+  }
+
+
+#footer {
+  position: fixed;
+  margin-bottom: 200px;
+  height: 50; width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  bottom: 0;
+}
+
+#copyright {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+}
+nav{
+  height: 50px;
+  padding: 10px;
+  margin:0;
+}
+.search-bar {
+  border: none;
+  outline: none;
+}
